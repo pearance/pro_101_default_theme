@@ -101,7 +101,7 @@ function pro_101_theme_infrastructure_strongarm() {
       'modules/update/update.css' => 0,
     ),
     'alpha_debug_block_toggle' => 1,
-    'alpha_debug_block_active' => 1,
+    'alpha_debug_block_active' => 0,
     'alpha_debug_grid_toggle' => 1,
     'alpha_debug_grid_active' => 0,
     'alpha_debug_grid_roles' => array(
