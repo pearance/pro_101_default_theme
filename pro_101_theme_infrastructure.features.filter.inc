@@ -19,7 +19,7 @@ function pro_101_theme_infrastructure_filter_default_formats() {
     'weight' => '12',
     'filters' => array(
       'ds_code' => array(
-        'weight' => '0',
+        'weight' => '12',
         'status' => '1',
         'settings' => array(),
       ),

@@ -55,5 +55,11 @@ function pro_101_theme_infrastructure_user_default_permissions() {
     'module' => 'delta_blocks',
   );
 
+  // Exported permission: use text format ds_code
+  $permissions['use text format ds_code'] = array(
+    'name' => 'use text format ds_code',
+    'roles' => array(),
+  );
+
   return $permissions;
 }

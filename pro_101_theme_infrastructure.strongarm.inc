@@ -13,6 +13,90 @@ function pro_101_theme_infrastructure_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'delta_blocks_branding_logo_linked';
+  $strongarm->value = TRUE;
+  $export['delta_blocks_branding_logo_linked'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'delta_blocks_branding_logo_render';
+  $strongarm->value = TRUE;
+  $export['delta_blocks_branding_logo_render'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'delta_blocks_branding_site_name_hidden';
+  $strongarm->value = FALSE;
+  $export['delta_blocks_branding_site_name_hidden'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'delta_blocks_branding_site_name_linked';
+  $strongarm->value = TRUE;
+  $export['delta_blocks_branding_site_name_linked'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'delta_blocks_branding_site_slogan_hidden';
+  $strongarm->value = FALSE;
+  $export['delta_blocks_branding_site_slogan_hidden'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'delta_blocks_breadcrumb_current';
+  $strongarm->value = TRUE;
+  $export['delta_blocks_breadcrumb_current'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'delta_blocks_breadcrumb_title_hidden';
+  $strongarm->value = TRUE;
+  $export['delta_blocks_breadcrumb_title_hidden'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'delta_blocks_logo_linked';
+  $strongarm->value = TRUE;
+  $export['delta_blocks_logo_linked'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'delta_blocks_page_title_hidden';
+  $strongarm->value = FALSE;
+  $export['delta_blocks_page_title_hidden'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'delta_blocks_site_name_hidden';
+  $strongarm->value = FALSE;
+  $export['delta_blocks_site_name_hidden'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'delta_blocks_site_name_linked';
+  $strongarm->value = TRUE;
+  $export['delta_blocks_site_name_linked'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'delta_blocks_site_slogan_hidden';
+  $strongarm->value = FALSE;
+  $export['delta_blocks_site_slogan_hidden'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'theme_pro_101_starter_settings';
   $strongarm->value = array(
     'toggle_logo' => 1,
@@ -38,18 +122,18 @@ function pro_101_theme_infrastructure_strongarm() {
     'alpha_viewport_max_scale' => '1',
     'alpha_viewport_user_scaleable' => 0,
     'alpha_primary_alpha_default' => 'wide',
-    'alpha_layouts_alpha_default_wide_responsive' => 1,
-    'alpha_layouts_alpha_default_wide_weight' => '3',
-    'alpha_layouts_alpha_default_wide_media' => 'all and (min-width: 1220px)',
-    'alpha_layouts_alpha_default_fluid_responsive' => 0,
-    'alpha_layouts_alpha_default_fluid_weight' => '0',
-    'alpha_layouts_alpha_default_fluid_media' => 'all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)',
     'alpha_layouts_alpha_default_narrow_responsive' => 1,
     'alpha_layouts_alpha_default_narrow_weight' => '1',
     'alpha_layouts_alpha_default_narrow_media' => 'all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)',
     'alpha_layouts_alpha_default_normal_responsive' => 1,
     'alpha_layouts_alpha_default_normal_weight' => '2',
     'alpha_layouts_alpha_default_normal_media' => 'all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)',
+    'alpha_layouts_alpha_default_wide_responsive' => 1,
+    'alpha_layouts_alpha_default_wide_weight' => '3',
+    'alpha_layouts_alpha_default_wide_media' => 'all and (min-width: 1220px)',
+    'alpha_layouts_alpha_default_fluid_responsive' => 0,
+    'alpha_layouts_alpha_default_fluid_weight' => '0',
+    'alpha_layouts_alpha_default_fluid_media' => 'all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)',
     'alpha_primary_alpha_fluid' => 'normal',
     'alpha_layouts_alpha_fluid_normal_responsive' => 0,
     'alpha_layouts_alpha_fluid_normal_weight' => '0',
@@ -114,7 +198,7 @@ function pro_101_theme_infrastructure_strongarm() {
     ),
     'alpha_toggle_messages' => 1,
     'alpha_toggle_action_links' => 1,
-    'alpha_toggle_tabs' => 1,
+    'alpha_toggle_tabs' => 0,
     'alpha_toggle_breadcrumb' => 0,
     'alpha_toggle_page_title' => 1,
     'alpha_toggle_feed_icons' => 1,
