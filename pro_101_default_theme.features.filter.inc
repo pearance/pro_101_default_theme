@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * pro_101_theme_infrastructure.features.filter.inc
+ * pro_101_default_theme.features.filter.inc
  */
 
 /**
  * Implements hook_filter_default_formats().
  */
-function pro_101_theme_infrastructure_filter_default_formats() {
+function pro_101_default_theme_filter_default_formats() {
   $formats = array();
 
   // Exported format: Display Suite code

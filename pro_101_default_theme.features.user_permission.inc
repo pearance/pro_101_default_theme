@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * pro_101_theme_infrastructure.features.user_permission.inc
+ * pro_101_default_theme.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function pro_101_theme_infrastructure_user_default_permissions() {
+function pro_101_default_theme_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: admin_display_suite.

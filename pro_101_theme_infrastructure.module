@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- */
-
-// Drupal needs this blank file.
-include_once('pro_101_theme_infrastructure.features.inc');
