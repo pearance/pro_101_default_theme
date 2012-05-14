@@ -1,8 +1,7 @@
-description = A framework of design and layout tools for theming.
 name = Pro 101 Default Theme
+description = A framework of design and layout tools for theming.
 core = 7.x
-package = Pro 101 Defaults (L)
-php = 5.2.4
+package = Features
 version = 7.x-1.0
 project = pro_101_default_theme
 dependencies[] = color
@@ -37,4 +36,4 @@ features[variable][] = delta_blocks_page_title_hidden
 features[variable][] = delta_blocks_site_name_hidden
 features[variable][] = delta_blocks_site_name_linked
 features[variable][] = delta_blocks_site_slogan_hidden
-features[variable][] = theme_pro_101_starter_settings
+features[variable][] = theme_prostarter_settings

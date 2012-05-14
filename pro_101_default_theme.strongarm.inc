@@ -97,7 +97,7 @@ function pro_101_default_theme_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'theme_pro_101_starter_settings';
+  $strongarm->name = 'theme_prostarter_settings';
   $strongarm->value = array(
     'toggle_logo' => 1,
     'toggle_name' => 1,
@@ -121,7 +121,7 @@ function pro_101_default_theme_strongarm() {
     'alpha_viewport_min_scale' => '1',
     'alpha_viewport_max_scale' => '1',
     'alpha_viewport_user_scaleable' => 0,
-    'alpha_primary_alpha_default' => 'wide',
+    'alpha_primary_alpha_default' => 'normal',
     'alpha_layouts_alpha_default_narrow_responsive' => 1,
     'alpha_layouts_alpha_default_narrow_weight' => '1',
     'alpha_layouts_alpha_default_narrow_media' => 'all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)',
@@ -198,13 +198,13 @@ function pro_101_default_theme_strongarm() {
     ),
     'alpha_toggle_messages' => 1,
     'alpha_toggle_action_links' => 1,
-    'alpha_toggle_tabs' => 0,
-    'alpha_toggle_breadcrumb' => 0,
+    'alpha_toggle_tabs' => 1,
+    'alpha_toggle_breadcrumb' => 1,
     'alpha_toggle_page_title' => 1,
     'alpha_toggle_feed_icons' => 1,
     'alpha_hidden_title' => 0,
-    'alpha_hidden_site_name' => 1,
-    'alpha_hidden_site_slogan' => 1,
+    'alpha_hidden_site_name' => 0,
+    'alpha_hidden_site_slogan' => 0,
     'alpha_zone_user_wrapper' => 1,
     'alpha_zone_user_force' => 0,
     'alpha_zone_user_order' => 0,
@@ -466,7 +466,7 @@ function pro_101_default_theme_strongarm() {
     'alpha_region_footer_second_equal_height_element' => 0,
     'alpha_region_footer_second_equal_height_container' => 0,
   );
-  $export['theme_pro_101_starter_settings'] = $strongarm;
+  $export['theme_prostarter_settings'] = $strongarm;
 
   return $export;
 }
