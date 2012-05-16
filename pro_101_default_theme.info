@@ -2,6 +2,7 @@ name = Pro 101 Default Theme
 description = Default theme settings.
 core = 7.x
 package = Pro 101 Defaults (L)
+php = 5.2.4
 version = 7.x-1.0
 project = pro_101_default_theme
 dependencies[] = color
