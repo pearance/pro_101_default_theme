@@ -14,7 +14,6 @@ dependencies[] = ds
 dependencies[] = ds_extras
 dependencies[] = ds_forms
 dependencies[] = features
-dependencies[] = omega_tools
 dependencies[] = strongarm
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:1
