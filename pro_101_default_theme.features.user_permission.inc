@@ -37,15 +37,6 @@ function pro_101_default_theme_user_default_permissions() {
     'module' => 'ds',
   );
 
-  // Exported permission: administer delta.
-  $permissions['administer delta'] = array(
-    'name' => 'administer delta',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'delta_ui',
-  );
-
   // Exported permission: administer delta blocks.
   $permissions['administer delta blocks'] = array(
     'name' => 'administer delta blocks',

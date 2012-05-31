@@ -116,7 +116,7 @@ function pro_101_default_theme_strongarm() {
     'favicon_upload' => '',
     'alpha_grid' => 'alpha_default',
     'alpha_responsive' => 1,
-    'alpha_viewport' => 1,
+    'alpha_viewport' => 0,
     'alpha_viewport_initial_scale' => '1',
     'alpha_viewport_min_scale' => '1',
     'alpha_viewport_max_scale' => '1',
@@ -156,6 +156,7 @@ function pro_101_default_theme_strongarm() {
     ),
     'alpha_exclude' => array(
       'modules/field/theme/field.css' => 0,
+      'sites/all/modules/contrib/flexslider/assets/css/flexslider_img.css' => 0,
       'modules/node/node.css' => 0,
       'modules/user/user.css' => 0,
       'sites/all/modules/contrib/views/css/views.css' => 0,
