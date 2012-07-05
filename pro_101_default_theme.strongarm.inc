@@ -170,6 +170,7 @@ function pro_101_default_theme_strongarm() {
     ),
     'alpha_exclude' => array(
       'modules/field/theme/field.css' => 0,
+      'sites/all/modules/contrib/google_analytics_reports/google_analytics_reports/google_analytics_reports.css' => 0,
       'sites/all/modules/contrib/mollom/mollom.css' => 0,
       'modules/node/node.css' => 0,
       'modules/user/user.css' => 0,
