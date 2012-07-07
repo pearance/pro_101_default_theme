@@ -113,9 +113,9 @@ function pro_101_default_theme_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'theme_prostarter_settings';
   $strongarm->value = array(
-    'toggle_logo' => 1,
-    'toggle_name' => 1,
-    'toggle_slogan' => 1,
+    'toggle_logo' => 0,
+    'toggle_name' => 0,
+    'toggle_slogan' => 0,
     'toggle_node_user_picture' => 1,
     'toggle_comment_user_picture' => 1,
     'toggle_comment_user_verification' => 1,
@@ -218,9 +218,9 @@ function pro_101_default_theme_strongarm() {
     'alpha_toggle_breadcrumb' => 0,
     'alpha_toggle_page_title' => 1,
     'alpha_toggle_feed_icons' => 1,
-    'alpha_hidden_title' => 0,
-    'alpha_hidden_site_name' => 0,
-    'alpha_hidden_site_slogan' => 0,
+    'alpha_hidden_title' => 1,
+    'alpha_hidden_site_name' => 1,
+    'alpha_hidden_site_slogan' => 1,
     'alpha_zone_user_wrapper' => 1,
     'alpha_zone_user_force' => 0,
     'alpha_zone_user_order' => 0,
