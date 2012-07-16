@@ -214,7 +214,7 @@ function pro_101_default_theme_strongarm() {
     ),
     'alpha_toggle_messages' => 1,
     'alpha_toggle_action_links' => 1,
-    'alpha_toggle_tabs' => 1,
+    'alpha_toggle_tabs' => 0,
     'alpha_toggle_breadcrumb' => 0,
     'alpha_toggle_page_title' => 1,
     'alpha_toggle_feed_icons' => 1,
