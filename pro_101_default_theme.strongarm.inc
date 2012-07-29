@@ -218,7 +218,7 @@ function pro_101_default_theme_strongarm() {
     'alpha_toggle_breadcrumb' => 0,
     'alpha_toggle_page_title' => 1,
     'alpha_toggle_feed_icons' => 1,
-    'alpha_hidden_title' => 1,
+    'alpha_hidden_title' => 0,
     'alpha_hidden_site_name' => 1,
     'alpha_hidden_site_slogan' => 1,
     'alpha_zone_user_wrapper' => 1,
