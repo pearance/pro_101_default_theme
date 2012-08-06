@@ -155,7 +155,7 @@ function pro_101_default_theme_strongarm() {
     'alpha_libraries' => array(
       'omega_formalize' => 'omega_formalize',
       'omega_mediaqueries' => 'omega_mediaqueries',
-      'omega_equalheights' => 0,
+      'omega_equalheights' => 'omega_equalheights',
     ),
     'alpha_css' => array(
       'alpha-reset.css' => 'alpha-reset.css',
@@ -217,7 +217,7 @@ function pro_101_default_theme_strongarm() {
     'alpha_toggle_tabs' => 0,
     'alpha_toggle_breadcrumb' => 0,
     'alpha_toggle_page_title' => 1,
-    'alpha_toggle_feed_icons' => 1,
+    'alpha_toggle_feed_icons' => 0,
     'alpha_hidden_title' => 0,
     'alpha_hidden_site_name' => 1,
     'alpha_hidden_site_slogan' => 0,
