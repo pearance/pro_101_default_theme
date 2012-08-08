@@ -156,6 +156,7 @@ function pro_101_default_theme_strongarm() {
       'omega_formalize' => 'omega_formalize',
       'omega_mediaqueries' => 'omega_mediaqueries',
       'omega_equalheights' => 'omega_equalheights',
+      'jquery.timeago.js' => 'jquery.timeago.js',
     ),
     'alpha_css' => array(
       'alpha-reset.css' => 'alpha-reset.css',
