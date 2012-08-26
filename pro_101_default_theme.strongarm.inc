@@ -119,14 +119,14 @@ function pro_101_default_theme_strongarm() {
     'toggle_node_user_picture' => 1,
     'toggle_comment_user_picture' => 1,
     'toggle_comment_user_verification' => 1,
-    'toggle_favicon' => 0,
+    'toggle_favicon' => 1,
     'toggle_main_menu' => 1,
     'toggle_secondary_menu' => 1,
     'default_logo' => 0,
     'logo_path' => 'sites/all/themes/prostarter/gfx/logo.png',
     'logo_upload' => '',
-    'default_favicon' => 1,
-    'favicon_path' => '',
+    'default_favicon' => 0,
+    'favicon_path' => 'sites/all/themes/prostarter/gfx/favicon.ico',
     'favicon_upload' => '',
     'alpha_grid' => 'alpha_default',
     'alpha_responsive' => 1,
@@ -482,6 +482,7 @@ function pro_101_default_theme_strongarm() {
     'alpha_region_footer_second_css' => '',
     'alpha_region_footer_second_equal_height_element' => 0,
     'alpha_region_footer_second_equal_height_container' => 0,
+    'favicon_mimetype' => 'image/vnd.microsoft.icon',
   );
   $export['theme_prostarter_settings'] = $strongarm;
 
