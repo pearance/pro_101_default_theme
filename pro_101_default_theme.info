@@ -29,3 +29,5 @@ features[variable][] = delta_blocks_site_slogan_hidden
 features[variable][] = ft-default
 features[variable][] = ft-kill-colon
 features[variable][] = theme_prostarter_settings
+features[variable][] = theme_rubik_settings
+features[variable][] = theme_settings
