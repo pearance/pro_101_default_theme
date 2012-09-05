@@ -15,6 +15,7 @@ function pro_101_default_theme_user_default_permissions() {
     'name' => 'administer delta blocks',
     'roles' => array(
       0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'delta_blocks',
   );
