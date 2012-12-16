@@ -21,7 +21,15 @@ function pro_101_default_theme_delta_default_templates() {
   $delta->parent = '';
   $delta->settings = array(
     'theme_prostarter_settings' => array(
-      'alpha_region_preface_first_columns' => '12',
+      'alpha_region_content_zone' => NULL,
+      'alpha_region_content_equal_height_element' => FALSE,
+      'alpha_region_main_sidebar_2_columns' => '8',
+      'alpha_region_main_sidebar_2_weight' => '0',
+      'alpha_zone_pre_primary' => 'pre_2',
+      'alpha_zone_main_primary' => NULL,
+      'alpha_region_pre_1_zone' => 'main',
+      'alpha_region_pre_1_columns' => '8',
+      'alpha_region_pre_1_equal_height_element' => 0,
     ),
     'color_prostarter_files' => NULL,
     'color_prostarter_logo' => NULL,
