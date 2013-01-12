@@ -160,13 +160,13 @@ function pro_101_default_theme_strongarm() {
     ),
     'alpha_css' => array(
       'alpha-reset.css' => 'alpha-reset.css',
-      'omega-forms.css' => 'omega-forms.css',
       'global.css' => 'global.css',
       'alpha-mobile.css' => 0,
       'alpha-alpha.css' => 0,
       'omega-text.css' => 0,
       'omega-branding.css' => 0,
       'omega-menu.css' => 0,
+      'omega-forms.css' => 0,
       'omega-visuals.css' => 0,
     ),
     'alpha_exclude' => array(
