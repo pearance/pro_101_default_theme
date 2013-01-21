@@ -38,5 +38,23 @@ function pro_101_default_theme_delta_default_templates() {
   );
   $export['front'] = $delta;
 
+  $delta = new stdClass();
+  $delta->disabled = FALSE; /* Edit this to true to make a default delta disabled initially */
+  $delta->api_version = 3;
+  $delta->machine_name = 'single_column';
+  $delta->name = 'Single Column';
+  $delta->description = 'Single column layout; no sidebar.';
+  $delta->theme = 'prostarter';
+  $delta->mode = 'preserve';
+  $delta->parent = '';
+  $delta->settings = array(
+    'theme_prostarter_settings' => array(
+      'alpha_region_main_sidebar_1_zone' => NULL,
+      'alpha_region_main_sidebar_1_equal_height_element' => FALSE,
+      'alpha_region_content_columns' => '12',
+    ),
+  );
+  $export['single_column'] = $delta;
+
   return $export;
 }
