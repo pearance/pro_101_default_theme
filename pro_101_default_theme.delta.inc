@@ -13,6 +13,23 @@ function pro_101_default_theme_delta_default_templates() {
   $delta = new stdClass();
   $delta->disabled = FALSE; /* Edit this to true to make a default delta disabled initially */
   $delta->api_version = 3;
+  $delta->machine_name = 'double_column';
+  $delta->name = 'Double Column';
+  $delta->description = 'A two equal column layout.';
+  $delta->theme = 'prostarter';
+  $delta->mode = 'preserve';
+  $delta->parent = '';
+  $delta->settings = array(
+    'theme_prostarter_settings' => array(
+      'alpha_region_content_columns' => '6',
+      'alpha_region_main_sidebar_1_columns' => '6',
+    ),
+  );
+  $export['double_column'] = $delta;
+
+  $delta = new stdClass();
+  $delta->disabled = FALSE; /* Edit this to true to make a default delta disabled initially */
+  $delta->api_version = 3;
   $delta->machine_name = 'front';
   $delta->name = 'Front';
   $delta->description = '';
