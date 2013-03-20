@@ -13,6 +13,7 @@ features[ctools][] = delta:delta:3
 features[ctools][] = strongarm:strongarm:1
 features[delta][] = double_column
 features[delta][] = front
+features[delta][] = i_beam
 features[delta][] = single_column
 features[features_api][] = api:1
 features[user_permission][] = administer delta blocks
